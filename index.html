@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@5.9.55/css/materialdesignicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Short+Stack&display=swap" rel="stylesheet">
+  </head>
+  <style>
+    /* This is for wire framing to see our rows/columns */
+    body.debug .container,
+    body.debug .container-fluid {
+      outline: 2px double blue;
+      outline-offset: -2px;
+    }
+  
+    body.debug .row {
+      outline: 2px dashed red;
+      outline-offset: -2px;
+    }
+  
+    body.debug [class*="col-"] {
+      outline: 2px dotted forestgreen;
+      outline-offset: -3px;
+    }
+  </style>
+  <body class="">
+
+    <header class="container-fluid  text-light">
+      <div class="row header-color">
+        <div class="col p-0">
+          <nav class="navbar navbar-expand-lg custom-font">
+            <a class="navbar-brand text-light" href="#">Navbar w/ text</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="text-light" href="#snekShop">Shop <span class="sr-only">(current)</span></a>
+                </li>
+              <ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main class="container-fluid">
+      <!-- probably make this row have a background image -->
+      <div class="row hero-img align-items-center">
+        <div class="col-md-4 offset-md-8 pr-md-5">
+          <div class="rounded shadow d-none d-md-block p-4 glass-card">
+            <h6 class="custom-font">Sneks are snekky  <i class="mdi mdi-snake mdi-spin mdi-24px text-danger"
+              aria-hidden="true"></i></h6>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum accusamus rerum numquam neque cumque unde consectetur voluptates corporis nisi officiis, id iste minima sit exercitationem ducimus nulla saepe porro tempore!</p>
+          </div>
+        </div>
+      </div>
+      <div class="row bg-primary">
+        <div class="col text-center text-light">
+          <h3 class="p-2 custom-font">Sneky Snek Shop</h3>
+        </div>
+      </div>
+      <!-- snek shop cards -->
+      <div id="snekShop" class="row cool-gradient pt-4">
+        <div class="col-md-3 mb-5 d-flex justify-content-center">
+          <img class="object-fit-container rounded" src="https://s3-alpha-sig.figma.com/img/9a44/c81e/3e06d4e12d7638a7dc8b01412f65a724?Expires=1630281600&Signature=XTpt1YNHo-tFaGxl-5bClFezl-geEV9OkNOL0GhlXGJLY63NXP~o211QSJK2Et8mYxcZbTysgVujUErUHa-9QoMVGA~9UcYv7NVXheC42~JTTXnBNi6S2Ht0HI~xcLnY0X-JsnrBgBUZaLRMmX8QzYDxum6z35tUQ0e64JJ~ghIL7K-zoSYYSEqFJVKN7sJoWeYcATLkNsTqCqp80hACsc4Xn3nh9iGcZLaw3rSQ0lth3Y7~bE7SWN940G6sv4MDjYl~sN0s-weP5PwlrqlhgWiN69Je6hbQbE8iEIw0Dr2UQBxVCb-HvrkuxjtEcVj93NqlArrZUsa1X69qyukRcw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA" alt="">
+          <button type="button" class="text-light border border-0 p-2 position-absolute spill">Buy Now!</button>
+        </div>
+        <div class="col-md-3 mb-5 d-flex justify-content-center">
+          <img class="object-fit-container rounded" src="https://s3-alpha-sig.figma.com/img/6fbb/471e/f26539b0cc87f4d816260e0cdc08b598?Expires=1630281600&Signature=bmh33XLkr4ujevmRKMcVE8FhrXL-0ruq8yUiEizBgh1t4Gx7KZEEEErXS7CEuUOBMwbTe-tm3lZKJl9lKPdKa5Y-TJ-OjFrjsyhjlFgrUlPJg4oQimrJ4SAMEzQW4IWkV7dpf2ZYxEkrYaxnq0w9AOqF8RGCu5gglEfVlQnDNDsZNj~SWO9l5~Xain7GAVwEEgDq5Ee7IS34X6WXe4ABCJJgzASb8US05LuofRo1P~YXj9le4lyIgBw~oGRNtmknERadLLH97Bvtjd3KpNQyHxH3ia099B7pNXsJh20t5L1OWAS4AQUxMpkq7Q~Rb7pP6pZ9MqFf0HZJvorrWP-dIA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA" alt="">
+          <button type="button" class="text-light border border-0 p-2 position-absolute spill">Buy Now!</button>
+        </div>
+        <div class="col-md-3 mb-5 d-flex justify-content-center">
+          <img class="object-fit-container rounded" src="https://s3-alpha-sig.figma.com/img/c125/a782/73c65b3d92c14c9179673e38664aca08?Expires=1630281600&Signature=AfToO-VD4vprqDxeBtHUEE0fNHvb6QKpc~sblS6sQbgZbS-Nt9kJ4ptL7gxDH2nkvkovSBeZuyIXB8k-O1WFKiFQqOcuADB~~hlsZHw8dK~qURXaW02w8jrFWU2mYGhy9N0b7HAhCuaeZiTrCaVysfKhOTVMjXa8MnH2HsMOOdg-~hYgExFuBVRsMq3Bw45161BDdPsb5BAqCKhrljc78kB0CnOKR~3La63XcXYVWF8jBcKlGax7ixpNr68xqpkKQFoTHyePDLSwFccn1ehEg0U6oqjyGrXh5~uQ2pHX5cT1yiUhmgGL1rRwyk6OgbYsNKjtOC8Me6GmqIx56NPZcA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA" alt="">
+          <button type="button" class="text-light border border-0 p-2 position-absolute spill">Buy Now!</button>
+        </div>
+        <div class="col-md-3 mb-5 d-flex justify-content-center">
+          <img class="object-fit-container rounded" src="https://s3-alpha-sig.figma.com/img/a5d4/bbee/47709040ebd7661f4cd3c78992b61519?Expires=1630281600&Signature=UYC-3V2UHJm0CAaxWOhvt1jyamVZCI14mAVHgxAZy5aLpXIN3ITQuNGnRhjfY913RoIbpeqazffuLwnYkbXGH6TDywPUHphT6A3AREpGNrT0ltdDztULzMhN6B1ZFg4ZPFgkBRR62B6KMvAv70Wo53DxLO1j1piEjUUVvSKyXr0BiR29Tr5TXxQmluX8Z9RATnjbaRcY~AdmP96Oy2eBj0Jj1oK8tRXxsikY4iClZD-r5pn9~EqlSvp7QLukRdleRH6GRorQpMWkoFwa7hT3iP87NzhhJyIYOGMXCjdT4qp4eZIKsgLDFDVEekKuSc1XPUzxw4oFcRR6uhPBFnwKgw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA" alt="">
+          <button type="button" class="text-light border border-0 p-2 position-absolute spill">Buy Now!</button>
+        </div>
+        <div class="col-md-3 mb-5 d-flex justify-content-center">
+          <img class="object-fit-container rounded" src="https://s3-alpha-sig.figma.com/img/e280/00bd/c361b69122c38e12a160747d02f2626e?Expires=1630281600&Signature=SxEp08LDqp-sOfEzxU-eFw8HG314~OomaH8KRlAMcWCt1~53zih0XpGuRZ5nDPunKpKhAwXT7ASz3fpz4DylgSK-LH-Jj8wc~OyDl72lRsxPfam0QWCNOBX-z67mAZuwFyyQKxfEmkQ0dZJ1Or4r8e9~U9Pi26HLc99Krq~-WhesCLJo3rvi4NPBQ6qcYVyLijROO0IHZpak5dtrO1w4K0PnMDGyexKqsA94ySdAAIHNGVnTbRIabU7JjNUX0U1G2JTLoq88YTAF6GEuaFeyzR3mTthcx1kVIxBPcS-irkUjHYxy~fHDBvjZQr2P0Y8UyHJ-CFJupgcHlYr3JX03oA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA" alt="">
+          <button type="button" class="text-light border border-0 p-2 position-absolute spill">Buy Now!</button>
+        </div>
+        <div class="col-md-3 mb-5 d-flex justify-content-center">
+          <img class="object-fit-container rounded" src="https://s3-alpha-sig.figma.com/img/56a6/1844/1040e5739a0d1765bb341816d0538c75?Expires=1630281600&Signature=aq719LmVVCpmMGWKWqq6P0LMb-gYiRtKF7dim7kuUvdX5I8EnckSnaRWV6uA~NASqe4thdyKCC73qvBQ2-Kkg7kIjg7yrOVI8Kr52F~eMBXJb0wvQ1WkMou2lkYpOJtDQv44Y35ekHBIELJiC9tMonBGY43KYyB1K7aIRvXiTpEoVPvZUkr-oxZB2vvkUsHlVOQkqk2G~ZXj6oqFd6oBOKqQ2gnfkDmwrXgf5tqob1X9dvHYy6ViFf~rEfvmeSDs9n06FrOWebSnxMfo-5dmM0wFj4ga3arb3OVkhT4B~VkrRwcJoweUomops6qbnmMtiZgLjBj7lrb9pZ0OhSkSuQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA" alt="">
+          <button type="button" class="text-light border border-0 p-2 position-absolute spill">Buy Now!</button>
+        </div>
+        <div class="col-md-3 mb-5 d-flex justify-content-center">
+          <img class="object-fit-container rounded" src="https://s3-alpha-sig.figma.com/img/1a71/a551/81f4e5fb8774e0b99c9988ee88900dbd?Expires=1630281600&Signature=VQlX4mABqZghEZl5DFi9trCIUgfZKMKonahQQHmqCgov0dJ2cDdws2S5cagSuIlQhpBxgiQmsZiYBYBcw9xjJ~Vp5Zhou12sGPxfJHw5OVstYuIh1r9Zo4G0RaW4B9rzFgLnIs1PlXgHZC0bBoutR9WjFP796Kboo99fVIP7ecA1DUhbv3WbN~3sb64UITSVNfIQlXSdPDZGYKRk-AnsvzSnD01UyHsFz0zkZMx~vrWawcmKsUbzISkNO7WETGBuBm8McWUTkoYBbgGmFXZ5sXmrak-BJbnCTd0mjNpOu1vUMnNvxdfaKKga-e3puYiii-Op5kW5t00sQnocg5JIsA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA" alt="">
+          <button type="button" class="text-light border border-0 p-2 position-absolute spill">Buy Now!</button>
+        </div>
+        <div class="col-md-3 mb-5 d-flex justify-content-center">
+          <img class="object-fit-container rounded" src="https://s3-alpha-sig.figma.com/img/d00f/2c8f/367ca2e88e5f61fa3a40b79645ec777d?Expires=1630281600&Signature=en4yJya1OHj59zPxlp4BEms67NxTRV7DET6e--GdxleJA0mwhXA9xtgmjig0Ur7BUCM~fyOd3zgU7j367Dm70IlHKpWG6A6-EesYKxe5Qs7uICHL~CFpSMciunc-28sERXPuBGMed6sJv7VejVSaEJcABBPTN5WhhTcnSYr7~c5RuDrAJAhQjxeRB9blbHKVhAW5hv39o9G-y6qpxcYTkG5gqZUXFaPRYgIJhsNz-p23qVPzWf-9d8eGlmPs~5e6BpgADXXD1AHGrW7YZPo1RCD8X6e6n8n7e2STGK9zjY5rKSfj7rl0A~CQUTsbsPnQ4-ZI3metQ4Kftc3aJ72urQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA" alt="">
+          <button type="button" class="text-light border border-0 p-2 position-absolute spill">Buy Now!</button>
+        </div>
+      </div>
+    </main>
+      
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
+

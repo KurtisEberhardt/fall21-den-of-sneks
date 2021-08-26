@@ -1,0 +1,56 @@
+:root{
+  scroll-behavior: smooth;
+}
+
+.glass-card{
+  background-color: #ffffffc5;
+}
+
+button{
+  background: rgba(137, 12, 86, 0.5);
+  box-shadow: 0px 0px 12px #E77BBB;
+  backdrop-filter: blur(4px);
+/* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 45px;
+}
+
+.header-color{
+  background-color: #890C56!important;
+}
+
+.custom-font{
+  font-family: 'Short Stack', cursive;
+}
+
+.hero-img{
+  background-image: url('https://s3-alpha-sig.figma.com/img/8ccb/6cf9/6c83c21c3626d5fd4f8e49b5e72648a9?Expires=1630281600&Signature=D2HRcPncXeVRAX8NUyWnTad2sBHQNNQqgNI35~8Lx1ZgvE61QIvxyeaCr8ApECVXzGDTjhY4eC3R8UlA-m6WDw9Wb~lb5phKGvdCux7h8duDiqsFYa1qcZQPn3hLaeXoNCUFdzrI4LNt0ADVpuiSrsJO6Dya4rGLB3wzXu9oalLtx64VBkCd2MVfBoC5aVHl8F2njRH2oBkwn1wa7s-DGWks9qZh7LE-fwQN-VNtVIs11Sc7IlWA7L4qygGzBU7apRsNLuN4g-AVq089krQK7vn8T1n3yPsEo-O5c8BydT-sGIwG49zPypm3cLDWQhZGQX8zDEXjBX94jwEKBpTXKA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA');
+  min-height: 80vh;
+  background-size: cover;
+  background-position: center right;
+}
+
+img{
+  width: 250px;
+  height: 250px;
+}
+
+.object-fit-container{
+  object-fit: cover;
+}
+
+.spill{
+  bottom: -18px;
+}
+
+.cool-gradient{
+  background: linear-gradient(180deg, #613B91 0%, #2C2C4E 100%);
+}
+
+@media only screen and (max-width: 768px){
+  .hero-img{
+    background-image: url('https://s3-alpha-sig.figma.com/img/2831/3298/1744b16ef397326735dfc25db9bdd71e?Expires=1630281600&Signature=FH0Oc4HPsSAOIGKsD7Noz0SVJwlUIFttyoCrpB8nP7KBr5LE8RFhegEDuo~IqqquhJuIOynjP~dEGmbIFs6uZLbE1AX5HjDY2Kxfl8bLgIIGJM88hsfu7R4UDCcnMlYEI4s6o1xPhOeAekIq5cUREvLfCN~z2hSg9ognhxTIbkc3S-SokxFB-hDW3qjO9h-HzYLZH0kfquMhhvjxuO42UetihKdQjjzdiSa121xXjBJ7fjwQP8DP~ER34PRWEfQkskzbTfQ~q9o6qR79W3La-x~00VbEufETYdXed25-gb3DDmyoo7A7~L85GvtZOpxyj-n2furHf233em00IwalCQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA');
+  /* background-size: contain; */
+    min-height: 45vh;
+  }
+}
